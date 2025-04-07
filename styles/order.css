@@ -1,0 +1,46 @@
+.order-section {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.order-now, .savings {
+    width: 100%;
+}
+.order-now img, .savings img {
+    width: 100%;
+    max-width: 60rem;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.order-now {
+    margin-bottom: 1.5rem;
+}
+.savings {
+    margin-bottom: 2rem;
+}
+.savings img {
+    margin-bottom: 0.5rem;
+}
+
+.signature-dishes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 4rem;
+}
+.signature-dishes img {
+    width: 100%;
+    max-width: 60rem;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

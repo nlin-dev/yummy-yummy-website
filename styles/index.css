@@ -1,0 +1,120 @@
+/* Main Content */
+.main-content {
+    border-color: #181A1D;
+    padding-bottom: 4.5rem;
+}
+
+/* Featured Dishes */
+.featured-dishes {
+    display: flex;
+    justify-content: center;
+    line-height: 0;
+}
+
+.dish {
+    width: 100%;
+    text-align: center;
+}
+
+.dish-img {
+    width: 90%;
+    max-width: 56.25rem;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Promise Section */
+.promise-section {
+    margin: 0 auto;
+    max-width: 62.5rem;
+    height: 27.83rem;
+    background: url('../assets/index/promise-section.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.promise-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promise-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.promise-img {
+    width: 20rem;
+    height: auto;
+}
+
+/* Story Section */
+.story-section {
+    margin: 0 auto;
+    max-width: 62.5rem;
+    height: 27.83rem;
+    background: url('../assets/index/story-section.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.story-container {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10%;
+}
+
+.story-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.story-img {
+    width: 15.5rem;
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 48rem) {
+    .featured-dishes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .dish {
+        max-width: 100%;
+    }
+
+    .promise-section {
+        height: 20rem;
+    }
+    .promise-container {
+        padding-right: 0;
+        justify-content: center;
+    }
+    .promise-content {
+        text-align: center;
+        gap: 1vw;
+    }
+    .promise-img {
+        width: 15rem;
+    }
+
+    .story-container {
+        padding-right: 5vw;
+    }
+    .story-content {
+        gap: 1vw;
+    }
+    .story-img {
+        width: 11.62rem;
+    }
+} 
