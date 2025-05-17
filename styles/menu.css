@@ -34,7 +34,7 @@
         display: none;
     }
     .menu-1 {
-        background: url('../assets/menu/full-menu.jpg') no-repeat center center;
+        background: url('../assets/menu/full-menu.png') no-repeat center center;
         background-size: cover;
         min-height: 100rem;
         width: 90%;
